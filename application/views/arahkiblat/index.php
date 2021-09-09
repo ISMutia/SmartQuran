@@ -33,16 +33,14 @@
 	<!-- End Navbar -->
 
 	<!-- Arah Kiblat -->
-	<section class="arahkiblat py-5" style="background-color:var(--cokelat2);" id="arahkiblat">
+	<section class="arahkiblat py-5 mt-5" style="background-color:var(--cokelat2);" id="arahkiblat">
 		<div class="container">
-			<div id="mapid" class="my-5"></div>
 
 			<div class="compass">
 				<div class="arrow"></div>
 				<div class="compass-circle"></div>
 				<div class="my-point"></div>
 			</div>
-			<button class="start-btn">Start compass</button>
 
 			<script>
 				const compassCircle = document.querySelector(".compass-circle");
