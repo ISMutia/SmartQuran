@@ -24,9 +24,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://localhost/quran/';
-// $baseUrl = is_https() ? 'https://' : 'http://' . $_SERVER['HTTP_HOST'];
-// $config['base_url'] = $baseUrl;
+// $config['base_url'] = 'http://localhost/quran/';
+$baseUrl = is_https() ? 'https://' : 'http://' . $_SERVER['HTTP_HOST'];
+$config['base_url'] = $baseUrl;
 
 /*
 |--------------------------------------------------------------------------

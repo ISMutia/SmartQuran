@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-	<link href="<?= base_url('assets/alquran/surah/assets/index.css') ?>" rel="stylesheet" />
+	<link href="<?= base_url('assets/css/surah.css') ?>" rel="stylesheet" />
 
 	<title>Smart Qur'an</title>
 </head>
@@ -67,7 +67,6 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-<!-- <script src="index.js"></script> -->
 
 <script>
 	// Mengambil parameter nama dan nomer surat dari url
@@ -128,7 +127,7 @@
                   </div>
 
                   <span class="expand-detail">
-                     <img src="<?= base_url('assets/admin/assets/img/panah2.png') ?>">
+                     <img src="<?= base_url('assets/img/icon/panah2.png') ?>">
                   </span>
                </div>
             `;

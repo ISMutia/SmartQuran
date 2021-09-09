@@ -1,5 +1,5 @@
   <!-- Header -->
-  <header class="header py-5" style="background-image: url('<?= base_url('assets/admin/assets/img/bk.jpeg') ?>'); color: var(--white); background-color: var(--cream); height: 100vh; max-height: 700px; display: flex;
+  <header class="header py-5" style="background-image: url('<?= base_url('assets/img/wallpaper/bk.jpeg') ?>'); color: var(--white); background-color: var(--cream); height: 100vh; max-height: 700px; display: flex;
       align-items: center; position: relative; background-position: center center; background-size:cover;
   background-repeat: no-repeat; ">
 
