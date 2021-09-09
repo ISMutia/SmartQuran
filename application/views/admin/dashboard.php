@@ -8,8 +8,6 @@
 	<?php $this->load->view("admin/_partials/navbar.php"); ?>
 	<?php $this->load->view("admin/_partials/header.php"); ?>
 
-
-
 	<!-- Main Menu -->
 	<section id="menu" class="main-menu py-5">
 		<div class="container mx-auto py-5">
@@ -18,7 +16,7 @@
 				<div class="col">
 					<a href="<?= base_url('HomePage/alquran') ?>" style="display: block;" target="_blank">
 						<div class="px-1 py-3 text-center" style="background-color: var(--cream); color: var(--black); border-radius: 120px; cursor: pointer;">
-							<img src="<?= base_url('assets/admin/assets/img/menu1.jpeg') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" alt="Al-Quran">
+							<img src="<?= base_url('assets/img/menu1.jpeg') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" alt="Al-Quran">
 							<h6 style="font-weight: 600;">Al-Quran</h6>
 						</div>
 					</a>
@@ -27,7 +25,7 @@
 				<div class="col">
 					<a href="<?= base_url('HomePage/asmaulhusna') ?>" style="display: block;" target="_blank">
 						<div class="px-1 py-3 text-center" style="background-color: var(--cream); color: var(--black); border-radius: 120px; cursor: pointer;">
-							<img src="<?= base_url('assets/admin/assets/img/menu2.jpeg') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" alt="Asmaul Husna">
+							<img src="<?= base_url('assets/img/menu2.jpeg') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" alt="Asmaul Husna">
 							<h6 style="font-weight: 600;">Asmaul Husna</h6>
 						</div>
 					</a>
@@ -36,7 +34,7 @@
 				<div class="col">
 					<a href="#waktushalat" style="display: block;">
 						<div class="px-1 py-3 text-center" style="background-color: var(--cream); color: var(--black); border-radius: 120px; cursor: pointer;">
-							<img src="<?= base_url('assets/admin/assets/img/menu3.png') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" ; alt=" Waktu Sholat">
+							<img src="<?= base_url('assets/img/menu3.png') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" ; alt=" Waktu Sholat">
 							<h6 style=" font-weight: 600;">Waktu Sholat</h6>
 						</div>
 					</a>
@@ -45,7 +43,7 @@
 				<div class="col">
 					<a href="#arahkiblat" style="display: block;">
 						<div class="px-1 py-3 text-center" style="background-color: var(--cream); color: var(--black); border-radius: 120px; cursor: pointer;">
-							<img src="<?= base_url('assets/admin/assets/img/menu4.jpeg') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" alt="Arah Qiblat">
+							<img src="<?= base_url('assets/img/menu4.jpeg') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" alt="Arah Qiblat">
 							<h6 style="font-weight: 600;">Arah Qiblat</h6>
 						</div>
 					</a>
@@ -54,7 +52,7 @@
 				<div class="col">
 					<a href="<?= base_url('HomePage/doaharian') ?>" style="display: block;" target="_blank">
 						<div class="px-1 py-3 text-center" style="background-color: var(--cream); color: var(--black); border-radius: 120px; cursor: pointer;">
-							<img src="<?= base_url('assets/admin/assets/img/menu55.png') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" alt="Doa Harian">
+							<img src="<?= base_url('assets/img/menu5.png') ?>" class="img-fluid mb-3" width="100" height="100" style="border-radius: 50%" alt="Doa Harian">
 							<h6 style="font-weight: 600;">Doa Harian</h6>
 						</div>
 					</a>
@@ -105,7 +103,7 @@
 							<h4 class="waktu m-0" style="font-weight: 700;">-</h4>
 						</div>
 						<div class="col-6 ps-3 pe-0 text-center">
-							<img src="<?= base_url('assets/admin/assets/img/imsak.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Imsak">
+							<img src="<?= base_url('assets/img/shalat/imsak.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Imsak">
 						</div>
 					</div>
 				</div>
@@ -116,7 +114,7 @@
 								<h4 class="waktu m-0" style="font-weight: 700;">-</h4>
 						</div>
 						<div class="col-6 ps-3 pe-0 text-center">
-							<img src="<?= base_url('assets/admin/assets/img/subuh.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Subuh">
+							<img src="<?= base_url('assets/img/shalat/subuh.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Subuh">
 						</div>
 					</div>
 				</div>
@@ -127,7 +125,7 @@
 							<h4 class="waktu m-0" style="font-weight: 700;">-</h4>
 						</div>
 						<div class="col-6 ps-3 pe-0 text-center">
-							<img src="<?= base_url('assets/admin/assets/img/terbit.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Terbit">
+							<img src="<?= base_url('assets/img/shalat/terbit.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Terbit">
 						</div>
 					</div>
 				</div>
@@ -138,7 +136,7 @@
 							<h4 class="waktu m-0" style="font-weight: 700;">-</h4>
 						</div>
 						<div class="col-6 ps-3 pe-0 text-center">
-							<img src="<?= base_url('assets/admin/assets/img/dhuha.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Dhuha">
+							<img src="<?= base_url('assets/img/shalat/dhuha.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Dhuha">
 						</div>
 					</div>
 				</div>
@@ -149,7 +147,7 @@
 							<h4 class="waktu m-0" style="font-weight: 700;">-</h4>
 						</div>
 						<div class="col-6 ps-3 pe-0 text-center">
-							<img src="<?= base_url('assets/admin/assets/img/dzuhur.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Dzuhur">
+							<img src="<?= base_url('assets/img/shalat/dzuhur.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Dzuhur">
 						</div>
 					</div>
 				</div>
@@ -160,7 +158,7 @@
 							<h4 class="waktu m-0" style="font-weight: 700;">-</h4>
 						</div>
 						<div class="col-6 ps-3 pe-0 text-center">
-							<img src="<?= base_url('assets/admin/assets/img/ashar.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Ashar">
+							<img src="<?= base_url('assets/img/shalat/ashar.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Ashar">
 						</div>
 					</div>
 				</div>
@@ -171,7 +169,7 @@
 							<h4 class="waktu m-0" style="font-weight: 700;">-</h4>
 						</div>
 						<div class="col-6 ps-3 pe-0 text-center">
-							<img src="<?= base_url('assets/admin/assets/img/maghrib.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Maghrib">
+							<img src="<?= base_url('assets/img/shalat/maghrib.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Maghrib">
 						</div>
 					</div>
 				</div>
@@ -182,7 +180,7 @@
 							<h4 class="waktu m-0" style="font-weight: 700;">-</h4>
 						</div>
 						<div class="col-6 ps-3 pe-0 text-center">
-							<img src="<?= base_url('assets/admin/assets/img/isya.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Isya'">
+							<img src="<?= base_url('assets/img/shalat/isya.png') ?>" class="jadwal-icon" style="margin-bottom: -10px;" alt="Isya'">
 						</div>
 					</div>
 				</div>
@@ -217,7 +215,7 @@
 				<a href="<?= base_url('HomePage/arahkiblat') ?>" style="display: block;" target="blank">
 					<div class="px-1 py-3 text-center" style="background-color: var(--cream); color: var(--black); border-radius: 50px; cursor: pointer;">
 						<h6 style="font-weight: 600;">PENCARI ARAH KIBLAT</h6>
-						<img src="<?= base_url('assets/admin/assets/img/kiblat.jpg') ?>" class="img-fluid mb-3" width="120" height="50" style="border-radius: 50%" alt="Al-Quran">
+						<img src="<?= base_url('assets/img/kiblat.jpg') ?>" class="img-fluid mb-3" width="120" height="50" style="border-radius: 50%" alt="Al-Quran">
 						<h6 style="font-weight: 600;">Ayo Mulai</h6>
 					</div>
 				</a>
@@ -243,13 +241,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
-<!-- <script src="list.js"></script> -->
-<script src="<?= base_url('assets/list.js') ?>"></script>
-<!-- <script src="hijri-date.js"></script> -->
-<script src="<?= base_url('assets/hijri-date.js') ?>"></script>
-<!-- <script src="calendar.js"></script> -->
-<script src="<?= base_url('calendar.js') ?>"></script>
-<!-- <script src="index.js"></script> -->
+<script src="<?= base_url('assets/js/hijri_date.js') ?>"></script>
+<script src="<?= base_url('assets/js/list.js') ?>"></script>
 <script>
 	// Set ayat Al-Quran acak
 	$.ajax({
@@ -424,29 +417,6 @@
 			}
 		})
 	}
-
-
-	// Render random quotes islami
-	$.ajax({
-		url: 'quotes-islami.json',
-		success: results => {
-			const getRandom = Math.floor(Math.random() * results.length)
-			const quotesRandom = results[getRandom]
-			const fragmentQuotes = `
-        <h6 class="text-start">Quotes Islami Untukmu:</h6>
-        <h2 class="text-end my-3">${quotesRandom.arabic}</h2>
-        <h6 class="text-start" style="font-style: italic; font-weight: 400;">${quotesRandom.arti}</h6>
-      `
-
-			$('.widget-header').html(fragmentQuotes)
-
-			// Menentukan tinggi header dan margin-bottom
-			// Hal ini dilakukan karena beberapa quotes memiliki kalimat yang panjang, sehingga nantinya akan overlaping
-			const widgetHeight = getComputedStyle(document.querySelector('.widget-header')).height
-			document.querySelector('.header').style.height = `calc(80vh + ${widgetHeight} / 2)`
-			document.querySelector('.header').style.marginBottom = `calc(${widgetHeight} / 4 + 30px)`
-		}
-	})
 
 	// last read
 	const smartQuran = JSON.parse(localStorage.getItem('SMART QURAN'))
