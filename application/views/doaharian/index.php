@@ -53,7 +53,7 @@
       center; color: var(--black);">
 		<div>
 			<h6 class="m-0 px-4 text-center">
-				&copy; Copyright <strong><span><a href="<?= base_url('HomePage/info') ?>" target="blank"> Girl's PNP II</a></span></strong> Support by<a href="https://inovindo.co.id/" target="blank"> PT. Inovindo Digital Media</a>
+				&copy; Copyright <strong><span><a href="<?= base_url('HomePage/info') ?>" target="blank" style="color: var(--black);"> Girl's PNP II</a></span></strong> Support by<strong><span><a href="https://inovindo.co.id/" target="blank" style="color: var(--black);"> PT. Inovindo Digital Media</a></span></strong>
 			</h6>
 		</div>
 	</footer>

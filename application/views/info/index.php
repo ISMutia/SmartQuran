@@ -30,8 +30,8 @@
 <body id="top">
 	<header class="bg-light">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
-			<div class="container" style="text-align: center"><a class="link-dark navbar-brand site-title mb-0" href="#">
-					<marquee>Girl's PNP II</marquee>
+			<div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">
+					<marquee width="600px">Girl's Politeknik Negeri Padang II'18</marquee>
 			</div>
 		</nav>
 	</header>
@@ -82,8 +82,8 @@
 			<footer class="pt-4 pb-4 text-center bg-light">
 				<div class="container">
 					<div class="my-3">
-						<div class="h4">Mutia & Lin & Fina & Putri</div>
-						<p>Thank You :)</p>
+						<div class="h5">Teknologi Rekayasa Perangkat Lunak - Teknologi Informasi</div>
+						<h4>Politeknik Negeri Padang</h>
 					</div>
 				</div>
 		</div>
