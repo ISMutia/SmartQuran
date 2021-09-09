@@ -42,6 +42,11 @@
 				<div class="my-point"></div>
 			</div>
 
+			<div class="row text-center mt-5">
+				<p id="derajatKaabah">Arah Kaabah</p>
+				<p id="jarakKaabah">Jarak Kaabah</p>
+			</div>
+
 			<script>
 				const compassCircle = document.querySelector(".compass-circle");
 				const myPoint = document.querySelector(".my-point");
@@ -49,14 +54,10 @@
 				const isIOS =
 					navigator.userAgent.match(/(iPod|iPhone|iPad)/) &&
 					navigator.userAgent.match(/AppleWebKit/);
+				let pointDegree;
 
 				function init() {
-					startBtn.addEventListener("click", startCompass);
 					navigator.geolocation.getCurrentPosition(locationHandler);
-
-					if (!isIOS) {
-						window.addEventListener("deviceorientationabsolute", handler, true);
-					}
 				}
 
 				function startCompass() {
@@ -70,6 +71,8 @@
 								}
 							})
 							.catch(() => alert("not supported"));
+					} else {
+						window.addEventListener("deviceorientationabsolute", handler, true);
 					}
 				}
 
@@ -90,7 +93,6 @@
 					}
 				}
 
-				let pointDegree;
 
 				function locationHandler(position) {
 					const {
@@ -102,6 +104,14 @@
 					if (pointDegree < 0) {
 						pointDegree = pointDegree + 360;
 					}
+
+					startCompass();
+					// set text
+					let derajat = document.querySelector('#derajatKaabah');
+					let jarak = document.querySelector('#jarakKaabah');
+					let distance = calcCrow(21.422487, 39.826206, latitude, longitude).toFixed(2);
+					derajat.textContent = `Arah Qiblat ${pointDegree}⁰`;
+					jarak.textContent = `Jarak ke Kaabah ∓${distance} KM`;
 				}
 
 				function calcDegreeToPoint(latitude, longitude) {
@@ -123,6 +133,24 @@
 							Math.sin(phi) * Math.cos(lambdaK - lambda)
 						);
 					return Math.round(psi);
+				}
+
+				function calcCrow(lat1, lon1, lat2, lon2) {
+					var R = 6371; // km
+					var dLat = toRad(lat2 - lat1);
+					var dLon = toRad(lon2 - lon1);
+					var lat1 = toRad(lat1);
+					var lat2 = toRad(lat2);
+
+					var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+						Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
+					var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+					var d = R * c;
+					return d;
+				}
+
+				function toRad(Value) {
+					return Value * Math.PI / 180;
 				}
 
 				init();
