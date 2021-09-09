@@ -49,14 +49,10 @@
 				const isIOS =
 					navigator.userAgent.match(/(iPod|iPhone|iPad)/) &&
 					navigator.userAgent.match(/AppleWebKit/);
+				let pointDegree;
 
 				function init() {
-					startBtn.addEventListener("click", startCompass);
 					navigator.geolocation.getCurrentPosition(locationHandler);
-
-					if (!isIOS) {
-						window.addEventListener("deviceorientationabsolute", handler, true);
-					}
 				}
 
 				function startCompass() {
@@ -70,6 +66,8 @@
 								}
 							})
 							.catch(() => alert("not supported"));
+					} else {
+						window.addEventListener("deviceorientationabsolute", handler, true);
 					}
 				}
 
@@ -90,7 +88,6 @@
 					}
 				}
 
-				let pointDegree;
 
 				function locationHandler(position) {
 					const {
@@ -102,6 +99,8 @@
 					if (pointDegree < 0) {
 						pointDegree = pointDegree + 360;
 					}
+
+					startCompass();
 				}
 
 				function calcDegreeToPoint(latitude, longitude) {
