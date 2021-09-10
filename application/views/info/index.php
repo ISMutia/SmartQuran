@@ -26,7 +26,7 @@
 		</style>
 	</noscript>
 
-	<title>Smart Qur'an - Asmaul Husna</title>
+	<title>Smart Qur'an - Info</title>
 
 </head>
 
@@ -87,8 +87,8 @@
 			<footer class="pt-4 pb-4 text-center bg-light">
 				<div class="container">
 					<div class="my-3">
-						<div class="h5">Teknologi Rekayasa Perangkat Lunak - Teknologi Informasi</div>
-						<h4>Politeknik Negeri Padang</h>
+						<div class="h5"><span><strong><a href="https://ti.pnp.ac.id/" target="blank"> Rekayasa Perangkat Lunak - Teknologi Informasi</a></strong></span></div>
+						<h4><span><strong><a href="https://www.pnp.ac.id/" target="blank">Politeknik Negeri Padang</a></strong></span></h4>
 					</div>
 				</div>
 		</div>
