@@ -43,9 +43,11 @@
 			</div>
 
 			<div class="row text-center mt-5">
-				<p id="derajatKaabah">Arah Kaabah</p>
-				<p id="jarakKaabah">Jarak Kaabah</p>
+				<h7 id="derajatKaabah">Arah Kaabah</h7>
+				<h7 id="jarakKaabah">Jarak Kaabah</h7>
+				<p id="note"><strong><span>"Gerakkan smartphone anda sampai muncul simbol bulat hijau dan untuk simbol segitiga merah akan mengarahkan ke arah kiblat." </strong></span></p>
 			</div>
+
 
 			<script>
 				const compassCircle = document.querySelector(".compass-circle");
@@ -172,5 +174,8 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script>
+	alert('Hanya bisa diakses menggunakan mobile..');
+</script>
 
 </html>

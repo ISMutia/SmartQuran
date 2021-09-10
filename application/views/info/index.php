@@ -25,9 +25,13 @@
 			}
 		</style>
 	</noscript>
+
+	<title>Smart Qur'an - Asmaul Husna</title>
+
 </head>
 
 <body id="top">
+
 	<header class="bg-light">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
 			<div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">
@@ -35,6 +39,7 @@
 			</div>
 		</nav>
 	</header>
+
 	<div class="page-content">
 		<div id="content">
 			<div class="section px-2 px-lg-4 pt-5" id="profile">
@@ -93,6 +98,7 @@
 	<script src="<?= base_url('assets/js/masonry.pkgd.min.js?ver=1.2.0') ?>"></script>
 	<script src="<?= base_url('assets/js/aos.min.js?ver=1.2.0') ?>"></script>
 	<script src="<?= base_url('assets/js/info.js?ver=1.2.0') ?>"></script>
+
 </body>
 
 </html>
