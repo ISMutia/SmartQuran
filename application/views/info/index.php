@@ -87,17 +87,17 @@
 			<footer class="pt-4 pb-4 text-center bg-light">
 				<div class="container">
 					<div class="my-3">
-						<div class="h5"><span><strong><a href="https://ti.pnp.ac.id/" target="blank"> Rekayasa Perangkat Lunak - Teknologi Informasi</a></strong></span></div>
-						<h4><span><strong><a href="https://www.pnp.ac.id/" target="blank">Politeknik Negeri Padang</a></strong></span></h4>
+						<div class="h5"><span><strong><a href="https://ti.pnp.ac.id/" target="blank"> Rekayasa Perangkat Lunak - Teknologi Informasi</a></strong></s< /div>
+								<h4><span><strong><a href="https://www.pnp.ac.id/" target="blank">Politeknik Negeri Padang</a></strong></span></h4>
+						</div>
 					</div>
 				</div>
 		</div>
-	</div>
-	<div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
-	<script src="<?= base_url('assets/js/imagesloaded.pkgd.min.js?ver=1.2.0') ?>"></script>
-	<script src="<?= base_url('assets/js/masonry.pkgd.min.js?ver=1.2.0') ?>"></script>
-	<script src="<?= base_url('assets/js/aos.min.js?ver=1.2.0') ?>"></script>
-	<script src="<?= base_url('assets/js/info.js?ver=1.2.0') ?>"></script>
+		<div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
+		<script src="<?= base_url('assets/js/imagesloaded.pkgd.min.js?ver=1.2.0') ?>"></script>
+		<script src="<?= base_url('assets/js/masonry.pkgd.min.js?ver=1.2.0') ?>"></script>
+		<script src="<?= base_url('assets/js/aos.min.js?ver=1.2.0') ?>"></script>
+		<script src="<?= base_url('assets/js/info.js?ver=1.2.0') ?>"></script>
 
 </body>
 

@@ -360,11 +360,11 @@
 
 		const changedMasehiDay = (new Date(changedMasehiTime).getDay()).toString();
 		const changedMasehiDate = (new Date(changedMasehiTime).getDate()).toString();
-		const changedMasehiMonth = (new Date(changedMasehiTime).getMonth() + 1).toString();
+		const changedMasehiMonth = (new Date(changedMasehiTime).getMonth()).toString();
 		const changedMasehiYear = (new Date(changedMasehiTime).getFullYear()).toString();
 		const changedMasehiFullDate = `${changedMasehiYear}/${changedMasehiMonth.length == 1 ? '0' + changedMasehiMonth : changedMasehiMonth}/${changedMasehiDate.length == 1 ? '0' + changedMasehiDate : changedMasehiDate}`
 
-		$('.tanggal .masehi').text(`${MasehiDays[changedMasehiDay]}, ${changedMasehiDate} ${MasehiMonths[changedMasehiMonth]}`)
+		$('.tanggal .masehi').text(`${MasehiDays[changedMasehiDay]}, ${changedMasehiDate} ${MasehiMonths[changedMasehiMonth]} ${changedMasehiYear}`)
 		$('.tanggal .hijriyah').text(`${changedHijriyahDate} ${changedHijriyahMonth} ${changedHijriyahYear} H`)
 
 		gantiJadwalSholatDaerah($('.kota-pilihan').data('idKota'), changedMasehiFullDate)
@@ -380,11 +380,11 @@
 
 		const changedMasehiDay = (new Date(changedMasehiTime).getDay()).toString();
 		const changedMasehiDate = (new Date(changedMasehiTime).getDate()).toString();
-		const changedMasehiMonth = (new Date(changedMasehiTime).getMonth() + 1).toString();
+		const changedMasehiMonth = (new Date(changedMasehiTime).getMonth()).toString();
 		const changedMasehiYear = (new Date(changedMasehiTime).getFullYear()).toString();
 		const changedMasehiFullDate = `${changedMasehiYear}/${changedMasehiMonth.length == 1 ? '0' + changedMasehiMonth : changedMasehiMonth}/${changedMasehiDate.length == 1 ? '0' + changedMasehiDate : changedMasehiDate}`
 
-		$('.tanggal .masehi').text(`${MasehiDays[changedMasehiDay]}, ${changedMasehiDate} ${MasehiMonths[changedMasehiMonth]}`)
+		$('.tanggal .masehi').text(`${MasehiDays[changedMasehiDay]}, ${changedMasehiDate} ${MasehiMonths[changedMasehiMonth]} ${changedMasehiYear}`)
 		$('.tanggal .hijriyah').text(`${changedHijriyahDate} ${changedHijriyahMonth} ${changedHijriyahYear} H`)
 
 		gantiJadwalSholatDaerah($('.kota-pilihan').data('idKota'), changedMasehiFullDate)
